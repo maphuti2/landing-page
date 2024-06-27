@@ -59,7 +59,7 @@ h1 {
   color: #f9faf8;
 }
 
-p {
+.pp {
   font-size: 18px;
   color: #e5e7eb;
   margin: 24px 0px;
@@ -84,7 +84,7 @@ button {
 /* styling second page */
 .second-content {
   height: 100vh;
-  background-color: #e5e7eb;
+  background-color: #ffffff;
 }
 
 .page-two-header {
@@ -111,3 +111,9 @@ button {
   margin-top: 40px;
   margin-left: 16px;
 }
+
+.pic {
+  cursor: pointer;
+}
+
+/* Third content to my page 3 */
