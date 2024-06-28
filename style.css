@@ -98,7 +98,7 @@ button {
 
 .text-second-page {
   color: #1f2937;
-  max-width: 200px;
+  max-width: 180px;
   margin: 8px 3px;
 }
 
@@ -117,3 +117,32 @@ button {
 }
 
 /* Third content to my page 3 */
+
+.third-content {
+  min-height: 100vh;
+  background-color: #c6c6c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  width: 550px;
+  flex-direction: column;
+  padding: 80px;
+  color: #1f2937;
+}
+
+.author {
+  align-self: flex-end;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.para {
+  font-size: 36px;
+}
+
+/*  */
