@@ -145,4 +145,58 @@ img {
   font-size: 36px;
 }
 
-/*  */
+/* final page styling */
+
+.last-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.plc-text {
+  background-color: #3882f6;
+  width: 550px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 20%;
+}
+.last-text {
+  font-size: 36px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.last-text-sub {
+  font-size: 18px;
+  font-style: italic;
+  color: #c6c6c6;
+}
+
+.btn-sign {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 6px 24px;
+  border: 2px solid #e5e7eb;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.place-footer {
+  background-color: #1f2937;
+  width: 100%;
+  padding: 16px;
+}
+
+.footer-text {
+  text-align: center;
+  color: #e5e7eb;
+  font-style: italic;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
